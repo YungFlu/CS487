@@ -1,8 +1,10 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Navigation(props) {
   return (
+    
     <div className="navigation">
       <nav class="navbar navbar-expand navbar-dark bg-danger">
         <div class="container">
@@ -20,7 +22,7 @@ function Navigation(props) {
               >
                 <Link class="nav-link" to="/">
                   Study Rooms
-                  <span class="sr-only">(current)</span>
+                  <span class="sr-only"></span>
                 </Link>
               </li>
 
@@ -49,6 +51,7 @@ function Navigation(props) {
         </div>
       </nav>
     </div>
+    
   );
 }
 

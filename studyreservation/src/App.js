@@ -5,7 +5,7 @@ import Navigation from "./components/Navigation";
 import StudyRooms from "./components/StudyRooms"
 import MyReservations from "./components/MyReservations"
 import PastReservations from "./components/PastReservations"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App () {
   return (
