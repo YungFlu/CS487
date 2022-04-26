@@ -28,20 +28,20 @@ function Navigation(props) {
 
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/MyReservations" ? "active" : ""
+                  props.location.pathname === "/myreservations" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/MyReservations">
+                <Link class="nav-link" to="/myreservations">
                   My Reservations
                 </Link>
               </li>
 
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/PastReservations" ? "active" : ""
+                  props.location.pathname === "/pastreservations" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/PastReservations">
+                <Link class="nav-link" to="/pastreservations">
                   Past Reservations
                 </Link>
               </li>

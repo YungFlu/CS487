@@ -6,7 +6,7 @@ import StudyRooms from "./components/StudyRooms"
 import MyReservations from "./components/MyReservations"
 import PastReservations from "./components/PastReservations"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ApiCalendar from 'react-google-calendar-api';
 export default function App () {
   return (
     <div
